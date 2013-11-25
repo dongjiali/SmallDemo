@@ -75,6 +75,9 @@
 #import "DataChuandi.h"
 #import "BaseClass.h"
 #import "SonClass.h"
+#import "Guidang.h"
+#import "MyNSThread.h"
+#import "Data_Array_char.h"
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -291,7 +294,7 @@
         NSLog(@"Total Money 400,the resual is %f", total); 
     }    
     
-    //partialclass
+    //扩展partialclass
     {
         BLL *bll = [[BLL alloc] init];
         bll.connString = @"I am connection string.";
@@ -472,6 +475,27 @@
     BaseClass *base = [[SonClass alloc]init];
     [base printfClassName];
 
+    
+    //ios 归档
+    Guidang *guidang = [[Guidang alloc]init];
+    [guidang class];
+    
+    //NSRunloop
+    
+    MyNSThread *thread = [[MyNSThread alloc]init];
+//    [thread main:self];
+    
+    //数据类型转换
+    Data_Array_char *dataall = [[Data_Array_char alloc]init];
+    [dataall stringTodata];
+    
+    [dataall charTodata];
+    
+    [dataall stringTochar];
+    
+    [dataall dataTochar];
+    
+    [dataall dataTostring];
     return YES;
 }
 

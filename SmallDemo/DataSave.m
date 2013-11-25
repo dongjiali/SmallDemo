@@ -42,7 +42,7 @@
     NSLog(@"UnstrOne = %@,UnstrTwo = %@",UnstrOne,UnstrTwo);
 }
 
-//对象归档NSKeyedArchiver和NSKeyedUnarchiver
+
 - (void)SaveDataToThisLocality2
 {
     NSString *strOne = @"Persistent data1";

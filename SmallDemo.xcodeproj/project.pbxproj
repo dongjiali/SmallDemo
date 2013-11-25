@@ -8,8 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		120C700A178FE96A00553925 /* ClassAbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120C7008178FE96900553925 /* ClassAbase.cpp */; };
+		122A798E1823B3DC0001D3EE /* Guidang.m in Sources */ = {isa = PBXBuildFile; fileRef = 122A798D1823B3DC0001D3EE /* Guidang.m */; };
+		129D45CC1830DC8A001AEA36 /* Data_Array_char.m in Sources */ = {isa = PBXBuildFile; fileRef = 129D45CB1830DC8A001AEA36 /* Data_Array_char.m */; };
 		12B42AF8178FDCFD004586D5 /* BaseClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 12B42AF7178FDCFD004586D5 /* BaseClass.mm */; };
 		12B42AFB178FDD1E004586D5 /* SonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B42AFA178FDD1E004586D5 /* SonClass.m */; };
+		12D4E89A1829E88B009F9DA6 /* MyNSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D4E8991829E88B009F9DA6 /* MyNSTimer.m */; };
+		12D4E89D1829E903009F9DA6 /* MyNSRunloop.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D4E89C1829E903009F9DA6 /* MyNSRunloop.m */; };
+		12D4E8A01829E9AE009F9DA6 /* MyNSThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D4E89F1829E9AE009F9DA6 /* MyNSThread.m */; };
 		2537CB031678122B00359876 /* image3.5 in Resources */ = {isa = PBXBuildFile; fileRef = 2537CB021678122B00359876 /* image3.5 */; };
 		2537CB061678123100359876 /* image4.0 in Resources */ = {isa = PBXBuildFile; fileRef = 2537CB051678123100359876 /* image4.0 */; };
 		253D05F015D8EB2F000E1C9B /* SubSystemOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 253D05EF15D8EB2F000E1C9B /* SubSystemOne.m */; };
@@ -158,10 +163,20 @@
 /* Begin PBXFileReference section */
 		120C7008178FE96900553925 /* ClassAbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClassAbase.cpp; sourceTree = "<group>"; };
 		120C7009178FE96A00553925 /* ClassAbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassAbase.h; sourceTree = "<group>"; };
+		122A798C1823B3DC0001D3EE /* Guidang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guidang.h; sourceTree = "<group>"; };
+		122A798D1823B3DC0001D3EE /* Guidang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guidang.m; sourceTree = "<group>"; };
+		129D45CA1830DC8A001AEA36 /* Data_Array_char.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data_Array_char.h; sourceTree = "<group>"; };
+		129D45CB1830DC8A001AEA36 /* Data_Array_char.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data_Array_char.m; sourceTree = "<group>"; };
 		12B42AF6178FDCFD004586D5 /* BaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClass.h; sourceTree = "<group>"; };
 		12B42AF7178FDCFD004586D5 /* BaseClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseClass.mm; sourceTree = "<group>"; };
 		12B42AF9178FDD1E004586D5 /* SonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonClass.h; sourceTree = "<group>"; };
 		12B42AFA178FDD1E004586D5 /* SonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonClass.m; sourceTree = "<group>"; };
+		12D4E8981829E88B009F9DA6 /* MyNSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNSTimer.h; sourceTree = "<group>"; };
+		12D4E8991829E88B009F9DA6 /* MyNSTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNSTimer.m; sourceTree = "<group>"; };
+		12D4E89B1829E903009F9DA6 /* MyNSRunloop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNSRunloop.h; sourceTree = "<group>"; };
+		12D4E89C1829E903009F9DA6 /* MyNSRunloop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNSRunloop.m; sourceTree = "<group>"; };
+		12D4E89E1829E9AE009F9DA6 /* MyNSThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNSThread.h; sourceTree = "<group>"; };
+		12D4E89F1829E9AE009F9DA6 /* MyNSThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNSThread.m; sourceTree = "<group>"; };
 		2537CB021678122B00359876 /* image3.5 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = image3.5; sourceTree = "<group>"; };
 		2537CB051678123100359876 /* image4.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = image4.0; sourceTree = "<group>"; };
 		253D05EE15D8EB2F000E1C9B /* SubSystemOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSystemOne.h; sourceTree = "<group>"; };
@@ -448,6 +463,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		122A798B1823B3AF0001D3EE /* 归档 */ = {
+			isa = PBXGroup;
+			children = (
+				122A798C1823B3DC0001D3EE /* Guidang.h */,
+				122A798D1823B3DC0001D3EE /* Guidang.m */,
+			);
+			name = "归档";
+			sourceTree = "<group>";
+		};
+		129D45C91830DC10001AEA36 /* 数据char data arrry */ = {
+			isa = PBXGroup;
+			children = (
+				129D45CA1830DC8A001AEA36 /* Data_Array_char.h */,
+				129D45CB1830DC8A001AEA36 /* Data_Array_char.m */,
+			);
+			name = "数据char data arrry";
+			sourceTree = "<group>";
+		};
+		12D4E8971829E861009F9DA6 /* NSrunloop */ = {
+			isa = PBXGroup;
+			children = (
+				12D4E8981829E88B009F9DA6 /* MyNSTimer.h */,
+				12D4E8991829E88B009F9DA6 /* MyNSTimer.m */,
+				12D4E89B1829E903009F9DA6 /* MyNSRunloop.h */,
+				12D4E89C1829E903009F9DA6 /* MyNSRunloop.m */,
+				12D4E89E1829E9AE009F9DA6 /* MyNSThread.h */,
+				12D4E89F1829E9AE009F9DA6 /* MyNSThread.m */,
+			);
+			name = NSrunloop;
+			sourceTree = "<group>";
+		};
 		253D05EC15D8EB1A000E1C9B /* 外观模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -476,7 +522,7 @@
 			name = ScrollViwe;
 			sourceTree = "<group>";
 		};
-		2574B41015B947AB00F802AF /* partialclass */ = {
+		2574B41015B947AB00F802AF /* 扩展partialclass */ = {
 			isa = PBXGroup;
 			children = (
 				2574B41115B947D700F802AF /* BLL.h */,
@@ -486,7 +532,7 @@
 				2574B41715B948C700F802AF /* Order.h */,
 				2574B41815B948C700F802AF /* Order.m */,
 			);
-			name = partialclass;
+			name = "扩展partialclass";
 			sourceTree = "<group>";
 		};
 		258CC13515B542DE0080A3D5 /* 桥接模式 */ = {
@@ -787,6 +833,8 @@
 		25A0F0C615AA85A8005A07A1 /* SmallDemo */ = {
 			isa = PBXGroup;
 			children = (
+				129D45C91830DC10001AEA36 /* 数据char data arrry */,
+				122A798B1823B3AF0001D3EE /* 归档 */,
 				CD4C6F161762D2A70094FEC3 /* c++ apns */,
 				CDF440401762CCB10019D426 /* 下拉列表 */,
 				CDF522F91761D8FB0088D90C /* 数据传参 */,
@@ -816,7 +864,7 @@
 				25A0AF9615D38542000063B5 /* Protocol */,
 				25B755EB15B65F7A004BA959 /* ClassSel */,
 				25A927A415CA2965005BD006 /* KVC */,
-				2574B41015B947AB00F802AF /* partialclass */,
+				2574B41015B947AB00F802AF /* 扩展partialclass */,
 				254B6E1315C0DE4B007717F3 /* ScrollViwe */,
 				25A0F0C715AA85A8005A07A1 /* Supporting Files */,
 				259E5B9115AECADB00CCC89E /* 代理模式 */,
@@ -1012,6 +1060,7 @@
 		CD247AEC1758AAB7007C49B0 /* runloop */ = {
 			isa = PBXGroup;
 			children = (
+				12D4E8971829E861009F9DA6 /* NSrunloop */,
 				CD247AF21758AB05007C49B0 /* Viewload */,
 				CD247AEE1758AAC6007C49B0 /* Operation */,
 			);
@@ -1252,6 +1301,7 @@
 				259E5B6D15AEA51E00CCC89E /* Compoent.m in Sources */,
 				259E5B7015AEA57D00CCC89E /* ConcreteCompoent.m in Sources */,
 				259E5B7315AEA5FC00CCC89E /* Decorator.m in Sources */,
+				129D45CC1830DC8A001AEA36 /* Data_Array_char.m in Sources */,
 				259E5B7615AEA7B100CCC89E /* ConcreteDecoratorA.m in Sources */,
 				259E5B7915AEA85400CCC89E /* ConcertetDecoratorB.m in Sources */,
 				259E5B7C15AEABCC00CCC89E /* Person.m in Sources */,
@@ -1283,10 +1333,12 @@
 				25B7560115B6B0B9004BA959 /* HandsetBrandN.m in Sources */,
 				25B7560415B6B133004BA959 /* HandsetBrandM.m in Sources */,
 				2574B41315B947D700F802AF /* BLL.m in Sources */,
+				12D4E89A1829E88B009F9DA6 /* MyNSTimer.m in Sources */,
 				2574B41615B9485000F802AF /* Product.m in Sources */,
 				2574B41915B948C700F802AF /* Order.m in Sources */,
 				25A21C0915BCED7B00461D9A /* Barbecuer.m in Sources */,
 				25A21C0D15BCEE1F00461D9A /* Command.m in Sources */,
+				12D4E8A01829E9AE009F9DA6 /* MyNSThread.m in Sources */,
 				25A21C1015BCF2D900461D9A /* BakeMuttonCommand.m in Sources */,
 				25A927A815CA297E005BD006 /* Book.m in Sources */,
 				25A927AB15CA2A8B005BD006 /* Author.m in Sources */,
@@ -1306,6 +1358,7 @@
 				25A0AFB215D3A8B9000063B5 /* ForenoonState.m in Sources */,
 				25A0AFB515D3ADDA000063B5 /* NoonState.m in Sources */,
 				25A0AFB815D3AE37000063B5 /* AfternoonState.m in Sources */,
+				122A798E1823B3DC0001D3EE /* Guidang.m in Sources */,
 				25A0AFBB15D3AE50000063B5 /* EveningState.m in Sources */,
 				25A0AFBE15D3AE95000063B5 /* SleepingState.m in Sources */,
 				25A0AFC115D3AEF6000063B5 /* RestState.m in Sources */,
@@ -1323,6 +1376,7 @@
 				253D05F915D8EBC6000E1C9B /* SubSystemFour.m in Sources */,
 				253D05FC15D8EBF3000E1C9B /* Facade.m in Sources */,
 				25B2922915DCCD17006AE6D5 /* myViewdraw.m in Sources */,
+				12D4E89D1829E903009F9DA6 /* MyNSRunloop.m in Sources */,
 				25A36EAD15ECBB82000E30B8 /* ClassA.m in Sources */,
 				25A36EB115ECBB98000E30B8 /* ClassB.m in Sources */,
 				25A36EB415ECC6AD000E30B8 /* Grammar.m in Sources */,
@@ -1394,7 +1448,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1411,7 +1465,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1425,6 +1479,7 @@
 				GCC_PREFIX_HEADER = "SmallDemo/SmallDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
 				INFOPLIST_FILE = "SmallDemo/SmallDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1442,6 +1497,7 @@
 				GCC_PREFIX_HEADER = "SmallDemo/SmallDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
 				INFOPLIST_FILE = "SmallDemo/SmallDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",

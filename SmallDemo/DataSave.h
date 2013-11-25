@@ -11,6 +11,6 @@
 @interface DataSave : NSObject
 //属性列表NSUserDefaults
 - (void)SaveDataToThisLocality1;
-//对象归档NSKeyedArchiver和NSKeyedUnarchiver
+
 - (void)SaveDataToThisLocality2;
 @end
